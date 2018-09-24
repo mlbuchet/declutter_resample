@@ -1,6 +1,7 @@
 Repository created on June 1st, 2018 by Mickaël Buchet.
 
-The purpose of this repository is to contains releasable versions of various old softwares developed for research.
+The purpose of this repository is to contains releasable versions of the denoising algorithm named declutter and resampling.
+Theoretical details about the algorithm can be found in "Declutter and Resampling: Towards Parameter-free Denoising" by M. Buchet, T. K. Dey, J. Wang and Y. Wang, Journal of Computational Geometry, 2018.
 
 Testing is done using the catch framework.
 
@@ -63,4 +64,3 @@ examples:
 
     denoise -i input -o output -d 2 -s 14
         - Denoise the input using overly safe constant (declutter at 2 and resample at 14) guaranteeing that no erosion happens.
- 
