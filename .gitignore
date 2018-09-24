@@ -1,0 +1,5 @@
+test/Controle Manuel.xlsx
+test/~$Controle Manuel.xlsx
+test/*.exe
+doc/*
+debug/*.txt
